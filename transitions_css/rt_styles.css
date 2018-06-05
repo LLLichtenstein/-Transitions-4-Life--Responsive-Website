@@ -64,10 +64,12 @@ a {
 	font-family: Arial, Helvetica, sans-serif;
     }
 a:link {
-	color:#85c4b9;/*turquoise*/
+	color:#85c4b9; /*turquoise*/
+    color:#73C5B6;
     }
 a:visited {
-	color:#85c4b9;/*turquoise*/
+	/*color:#85c4b9; turquoise*/
+    color:#73C5B6;
     }
 a:hover {
 	color:#df514c;/*red*/
@@ -87,24 +89,7 @@ p a:hover {
 p a:active {
 	color:#008bba;/*blue*/                     
 }
-#sky_background {
-	width:100%;
-    height:250px;
-    display:inline-block; 
-	}
-.definition_box {
-		background-color:#73C5B6;
-		text-align:left;
-		width:80%;
-		/*margin-right:45px;*/
-		/*margin-top:35px;*/
-		/*margin-bottom:45px;*/
-		border: 10px solid #FFF;
-		/*float:right;*/
-		height:130px;
-        position:relative;
-        background: url("../transitions_images/sky_large.jpg") no-repeat;
-	}
+
 /*FOOTER*/
 .footer_background {
 		background-color:#73C5B6;
@@ -122,12 +107,21 @@ p a:active {
 		color:#FFF;
 		line-height:20px;
 		font-size:11px;
-	}    
+	}
 
 /*HOME PAGE*/ 
-.blue_background {
-	background-color:#73C5B6;
+#logo {
+        width : 100%;
 }
+.row {
+  width: 100%;
+}
+.blue_background {
+	background-color:#73C5B6; 
+}
+.red_background {
+        background-color: #dc403b;
+	}
 #overview_text {
     padding-top: 4%;
     padding-bottom: 6%;
@@ -137,7 +131,117 @@ p a:active {
     color:#FFF;
 	font-family:Georgia, "Times New Roman", Times, serif;
     }
+.text_1{
+    font-weight:bolder;
+	}
+.text_2{
+    font-weight:lighter;
+	}
+.text_3{
+    font-weight:lighter;
+	}
+#text_italics_light{
+    font-style:italic;
+	font-weight:lighter;
+	}
+.assistive_technology {
+    display : inline-block;
+    background-color:#FFF;
+    text-align:center;
+    font-weight:bolder;
+    }
+.self_advocacy {
+    background-color:#FFF;
+    text-align:center;
+    font-weight:bolder;
+}
+.fctd_guide {
+    background-color:#FAC84C;
+    font-weight:bolder;
+    text-align:center;
+}
+#fctd_logo_tablet {
+    margin-right: auto;
+    border : 3px solid #FFF;
+	}
+
     
+/* ASSISTIVE TECHNOLOGY PAGE */
+#sky_background {
+	width:100%;
+    height:250px;
+    display:inline-block; 
+	}
+#relative_box {
+    position:relative;
+}
+.definition_box {
+	position:absolute;
+    top:20%;
+    left:10%;
+    background-color:#73C5B6;
+	width:80%;
+	border: 10px solid #FFF;
+	height:150px;
+}
+.definition_word{
+	color:#FFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+    text-transform:uppercase;
+	font-size:1.4em;
+	line-height:40px;
+	font-weight:bolder;
+    margin-top:15px;
+	margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}	
+.definition_text {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:1em;
+	line-height:26px;
+	font-weight:lighter;
+	margin-left:auto;
+    margin-right:auto;
+    padding-left:15px;
+    padding-right:15px;
+    text-align:left;
+	}
+.col-lg-4 {
+    width: 33.33%;
+    float: left;
+    /*border: 1px solid green;*/
+  }
+.boxes {
+	margin-right:auto;
+    margin-left:auto;
+    margin-bottom:30px;
+    margin-top:25px;
+	height : 310px;
+    width:90%;
+	background-color : #FFF;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+}
+.at_red_background {
+    background-color: #dc403b;
+    height: 965px;
+}
+.at_box_title {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    text-align:center;
+	font-size:1.1em;
+	font-weight:bolder;
+	line-height:38px;
+    text-transform:uppercase;
+    color:#007AA3;
+}
+.at_images {
+    align:center;
+    /*border: 3px solid black;*/
+}   
 /* MEDIA QUERIES STAY AT THE END */
 /*Desktop 992px and above. 
 Tablet between 768px and 991px, inclusively. 
@@ -149,11 +253,11 @@ the smallest screen size to design for is 320px*/
 /* add Hamburger Menu */
 @media (max-width : 622px) {
     #logo {
-        width : 100%;
-        font-size:1.5em;
+        font-size:1.75em;
         margin-left:15px;
         margin-top:15px;
-        line-height:20px;
+        line-height:50px;
+        height:50px;
     }
     nav span {
         display:none;
@@ -170,34 +274,23 @@ the smallest screen size to design for is 320px*/
     }
     .text_1{
         font-size:1em;
-        font-weight:bolder;
 	}
     .text_2{
         font-size:.9em
-        font-weight:lighter;
 	}
     .text_3{
         font-size:1em;
-        font-weight:lighter;
 	}
     #text_italics_light{
-		font-style:italic;
 		font-size:1em;
-		font-weight:lighter;
 	}
     .red_background {
-        background-color: #dc403b;
-        
         height : 565px;
 	}
     .assistive_technology {
-        display : inline-block;
-        background-color:#FFF;
         margin-left:20%;
         margin-top:5%;
-        text-align:center;
         font-size:.9em;
-        font-weight:bolder;
         line-height:20px;
         height:147px;
         width:60%;
@@ -213,12 +306,9 @@ the smallest screen size to design for is 320px*/
     }
     .self_advocacy {
         display : block;
-        background-color:#FFF;
         margin-left:20%;
         margin-top:5%;
-        text-align:center;
         font-size:.9em;
-        font-weight:bolder;
         line-height:20px;
         height:147px;
         width:60%;
@@ -238,13 +328,10 @@ the smallest screen size to design for is 320px*/
     }
     .fctd_guide {
         display : block;
-        background-color:#FAC84C;
         margin-left:20%;
         margin-top:5%;
-        text-align:center;
         padding-top:5%;
         font-size:.9em;
-		font-weight:bolder;
         line-height:20px;
         height:147px;
         width:60%;
@@ -256,31 +343,27 @@ the smallest screen size to design for is 320px*/
 		display: block;
         float : left;
         margin-left:20px;
-		margin-right: auto;
         margin-top:10px;
         margin-bottom:10px;
         width:20%;
-        border : 3px solid #FFF;
 	} 
-    #fctd_logo_desktop {
+    #fctd_logo {
         display:none;
     }
     #fctd_link_desktop{
         display:none;
     }
     .footer_background {
-		background-color:#73C5B6;
 		height:175px;
-		margin:0px;
 	}
 }
 /* MOBILE */
 @media (min-width : 623px) and (max-width : 767px) {
     #logo {
-        width : 100%;
-        font-size:1.5em;
+        font-size:2em;
         margin-left:15px;
-        line-height:40px;
+        line-height:90px;
+        height:75px;
     }
     nav span {
         display:none;
@@ -296,20 +379,27 @@ the smallest screen size to design for is 320px*/
         float:left;
         display:inline-block;
     }
+    .text_1{
+        font-size:.9em;
+	}
+    .text_2{
+        font-size:.7em;
+	}
+    .text_3{
+        font-size:.9em;
+	}
+    #text_italics_light{
+		font-size:.9em;
+	}
     .red_background {
-        background-color: #dc403b;
         height : 255px;
 	}
     .assistive_technology {
         float:left;
-        display : inline-block;
-        background-color:#FFF;
         margin-left:7%;
         margin-right:5%;
         margin-top:35px;
-        text-align:center;
         font-size:14px;
-        font-weight:bolder;
         line-height:28px;
         height:170px;
         width:25%;
@@ -326,12 +416,9 @@ the smallest screen size to design for is 320px*/
     .self_advocacy {
         float:left;
         display : inline-block;
-        background-color:#FFF;
         margin-right:5%;
         margin-top:35px;
-        text-align:center;
         font-size:.9em;
-        font-weight:bolder;
         line-height:28px;
         height:170px;
         width:25%;
@@ -352,48 +439,40 @@ the smallest screen size to design for is 320px*/
     .fctd_guide {
 		float:left;
         display : inline-block;
-        background-color:#FAC84C;
         margin-top:35px;
         height:170px;
         width:25%;
+		font-size:.9em;
+        line-height:20px;
         webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
         moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
         box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-		font-weight:bolder;
-		font-size:.9em;
-        line-height:20px;
-        text-align:center;
+		
 	}
     #fctd_logo_tablet {
 		display: block;
         margin-top:20px;
         margin-bottom:10px;
         margin-left:auto;
-		margin-right: auto;
         width:30%;
-        border : 3px solid #FFF;
 	} 
-    #fctd_logo_desktop {
+    #fctd_logo {
         display:none;
     }
     #fctd_link_desktop{
         display:none;
     }
     .footer_background {
-		background-color:#73C5B6;
 		height:125px;
-		margin:0px;
-	}
-    
+	} 
 }
+
 /* TABLET */
-@media (min-width : 768px) and (max-width : 991px) {
+@media (min-width : 768px) and (max-width : 1199px) {
     #logo {
-        width : 100%;
-        font-size:1.5em;
+        font-size:2.0em;
         margin-left:15px;
-        line-height:70px;
-        float: left;
+        line-height:90px;
     }
     #jumping_kids_desktop{
         display:none;
@@ -407,20 +486,27 @@ the smallest screen size to design for is 320px*/
     #overview_section{
         height: 166px;
     }
+    .text_1{
+        font-size:1.4em;
+	}
+    .text_2{
+        font-size:1.2em;
+	}
+    .text_3{
+        font-size:1.4em;
+	}
+    #text_italics_light{
+		font-size:1.4em;
+	}
     .red_background {
-        background-color: #dc403b;
         height : 255px;
 	}
     .assistive_technology {
         float:left;
-        display : inline-block;
-        background-color:#FFF;
         margin-left:7%;
         margin-right:5%;
         margin-top:35px;
-        text-align:center;
         font-size:.9em;
-        font-weight:bolder;
         line-height:28px;
         height:170px;
         width:25%;
@@ -437,12 +523,9 @@ the smallest screen size to design for is 320px*/
     .self_advocacy {
         float:left;
         display : inline-block;
-        background-color:#FFF;
         margin-right:5%;
         margin-top:35px;
-        text-align:center;
         font-size:.9em;
-        font-weight:bolder;
         line-height:28px;
         height:170px;
         width:25%;
@@ -463,28 +546,22 @@ the smallest screen size to design for is 320px*/
     .fctd_guide {
 		float:left;
         display : inline-block;
-        background-color:#FAC84C;
         margin-top:35px;
         height:170px;
         width:25%;
+		font-size:.9em;
+        line-height:20px;
         webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
         moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
         box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-		font-weight:bolder;
-		font-size:.9em;
-        line-height:20px;
-        text-align:center;
+		
 	}
     #fctd_logo_tablet {
-		display: block;
         margin-top:20px;
-        margin-bottom:10px;
+        margin-bottom:7px;
         margin-left:auto;
-		margin-right: auto;
-        width:30%;
-        border : 3px solid #FFF;
 	} 
-    #fctd_logo_desktop {
+    #fctd_logo {
         display:none;
     }
     #fctd_link_desktop{
@@ -492,7 +569,7 @@ the smallest screen size to design for is 320px*/
     }
 } 
 /* DESKTOP */
-@media (min-width : 992px) {
+@media (min-width : 1200px) {
 	#logo {
         font-size:2.25em;
         margin-left:24px;
@@ -501,6 +578,8 @@ the smallest screen size to design for is 320px*/
     #nav_indent {
         margin-left:24px;
     }
+    /* HOME Page */
+    
     #overview_section{
         height : 250px;
     }
@@ -518,35 +597,25 @@ the smallest screen size to design for is 320px*/
     }
     .text_1{
         font-size:1.6em;
-        font-weight:bolder;
 	}
     .text_2{
         font-size:1.4em;
-        font-weight:lighter;
 	}
     .text_3{
         font-size:1.6em;
-        font-weight:lighter;
 	}
     #text_italics_light{
-		font-style:italic;
 		font-size:1.6em;
-		font-weight:lighter;
 	}
     .red_background {
-        background-color: #dc403b;
         height : 310px;
 	} 
     .assistive_technology {
         float:left;
-        display : inline-block;
-        background-color:#FFF;
         margin-left:7%;
         margin-right:5%;
         margin-top:35px;
-        text-align:center;
         font-size:1.1em;
-        font-weight:bolder;
         line-height:38px;
         height:230px;
         width:25%;
@@ -563,12 +632,9 @@ the smallest screen size to design for is 320px*/
     .self_advocacy {
         float:left;
         display : inline-block;
-        background-color:#FFF;
         margin-right:5%;
         margin-top:35px;
-        text-align:center;
         font-size:1.1em;
-        font-weight:bolder;
         line-height:38px;
         height:230px;
         width:25%;
@@ -589,33 +655,35 @@ the smallest screen size to design for is 320px*/
     .fctd_guide {
 		float:left;
         display : inline-block;
-        background-color:#FAC84C;
         margin-top:35px;
         height:230px;
         width:25%;
-        webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-		font-weight:bolder;
 		font-size:1.1em;
         line-height:25px;
         margin-left:10px;
-        text-align:center;
+        webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+        moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+        box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+		
 	}
     #fctd_logo_tablet {
 		display: none;
     }
-    #fctd_logo_desktop {
+    #fctd_logo {
 		display: block;
         margin-top:20px;
         margin-bottom:20px;
         margin-left:auto;
 		margin-right: auto;
         width:30%;
-        border : 3px solid #FFF;
 	}
     #fctd_link_tablet{
     display:none;
     }
     
+    /* Assistive Technology Page */
+    
+    
 }
+
+
