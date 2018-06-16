@@ -4,7 +4,8 @@
     }
 body{ 
     /*background:#fcfbf3;*/
-    background:#dc403b;
+    background:#dc403b; /*red */
+    /*background-color:#687371; gray*/
     font-family: Arial, Helvetica, sans-serif;
     font-size:16px;
 }
@@ -53,35 +54,45 @@ nav span {
     float:left;
 	width : 14%;
 	line-height:20px;
-	font-size:16px;
+	font-size:1em;
 	font-weight:bold;
-    text-align:left;
+    /*text-align:left;*/
+    text-align:center;
     margin-left:15px;    
     }
+    
+#nav_indent {
+    margin-left:5%;
+}
 /* global links */
 a {
 	text-decoration:none;
 	font-family: Arial, Helvetica, sans-serif;
     }
 a:link {
-	color:#85c4b9; /*turquoise*/
-    color:#73C5B6;
+	/*color:#85c4b9; turquoise*/
+    /* contrast at least 3:1 #44A291 */
+    /* contrast at least 4.5:1 #368175 */
+    /*original color:#73C5B6;*/
+    color:#489988;
     }
 a:visited {
 	/*color:#85c4b9; turquoise*/
-    color:#73C5B6;
+    color:#489988;
     }
 a:hover {
-	color:#df514c;/*red*/
+    /* contrast at least 4.5:1 #DB3933*/
+    /*color:#df514c;*/
+	color:#DB3933;/*red*/
     }
 a:active {
-	color:#df514c;/*red*/
+	color:#DB3933;/*red*/
     }
 p a:link {
-	color:#df514c;/*red*/
+	color:#DB3933;/*red*/
 }
 p a:visited {
-	color:#df514c;/*red*/
+	color:#DB3933;/*red*/
 }
 p a:hover {
 	color:#008bba;/*blue*/                          
@@ -92,10 +103,16 @@ p a:active {
 
 /*FOOTER*/
 .footer_background {
-		background-color:#73C5B6;
-		height:100px;
+        /* contrast #59756F #687371*/
+		/*original background-color:#73C5B6;*/
+        background-color:#687371;
+        height:110px;
 		margin:0px;
 	}
+    .footer_ext {
+        background-color:#687371;
+		margin:0px;
+    }
 .credits_text {
 		text-align:left;
 		color:#FFF;
@@ -180,6 +197,8 @@ p a:active {
     top:20%;
     left:10%;
     background-color:#73C5B6;
+    /*background-color:#429E8D;*/
+    /*background-color:#44A291;*/
 	width:80%;
 	border: 10px solid #FFF;
 	height:150px;
@@ -208,11 +227,64 @@ p a:active {
     padding-right:15px;
     text-align:left;
 	}
-.col-lg-4 {
-    width: 33.33%;
+.col-sm-6 {
+    width: 50%;
+    float: left;
+    /*border: 1px solid blue;*/
+  }
+.col-lg-1 {
+    width: 8.33%;
+    float: left;
+    /*border: 1px solid red;*/
+  }
+.col-lg-2 {
+    width: 16.66%;
+    float: left;
+    /*border: 1px solid red;*/
+  }
+.col-lg-3 {
+    width: 25%;
     float: left;
     /*border: 1px solid green;*/
   }
+.col-lg-6 {
+    width: 50%;
+    float: left;
+    /*border: 1px solid blue;*/
+  }
+.col-lg-7 {
+    width: 58.33%;
+    float: left;
+    /*border: 1px solid yellow;*/
+  }
+.col-lg-8 {
+    width: 66.66%;
+    float: left;
+    /*border: 1px solid yellow;*/
+  }
+.col-lg-9 {
+    width: 74.99%;
+    float: left;
+    /*border: 1px solid red;*/
+  }
+.col-lg-10 {
+    width: 83.33%;
+    float: left;
+    /*border: 1px solid red;*/
+}
+.col-lg-11 {
+    width: 91.66%;
+    /*float: left;*/
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:7px;
+    /*border: 1px solid red;*/
+}
+.col-lg-12 {
+    width: 100%;
+    float: left;
+    /*border: 1px solid red;*/
+}
 .boxes {
 	margin-right:auto;
     margin-left:auto;
@@ -227,9 +299,30 @@ p a:active {
 }
 .at_red_background {
     background-color: #dc403b;
-    height: 965px;
+    height: 367px;
 }
-.at_box_title {
+.at_images {
+    position:relative;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:30px;
+    margin-top:25px;
+	height : 310px;
+    width:90%;
+	background-color : #000;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+}   
+.at_image_position {
+    position:absolute;
+    top:15%;
+    left:15%;
+}
+#white_text {
+    color:#ffffff;
+}
+.technology_title {
     font-family:Georgia, "Times New Roman", Times, serif;
     text-align:center;
 	font-size:1.1em;
@@ -238,15 +331,40 @@ p a:active {
     text-transform:uppercase;
     color:#007AA3;
 }
-.at_images {
-    align:center;
-    /*border: 3px solid black;*/
-}   
+.technology_image {
+    margin-left:10px;
+    margin-top:7px;
+    width:20px;
+    height:20px;
+}
+.technology_link {
+	color: #000;
+    text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+    font-weight: bold;
+    margin-top:7px;
+	margin-left:10px;
+    margin-right:10px;
+	line-height:18px;
+    text-align:left;
+}
+.technology_type {
+	font-style:italic;
+	font-weight:lighter;
+	font-size:.8em;
+	line-height:12px;
+}
+.clearfloat {
+		clear:both;
+	}
+
+
 /* MEDIA QUERIES STAY AT THE END */
 /*Desktop 992px and above. 
 Tablet between 768px and 991px, inclusively. 
-Mobile equal to or less than 767px.
-very small Mobile is less than 622px
+Mobile between 623px and 767px.
+very small Mobile is between 320px and 622px
 the smallest screen size to design for is 320px*/
 
 /* MOBILE - very small */
@@ -262,6 +380,13 @@ the smallest screen size to design for is 320px*/
     nav span {
         display:none;
     }
+    .footer_background_home {
+		height:190px;
+	}
+    .footer_background_at {
+		height:80px;
+	}
+/* HOME PAGE */
     #overview_section{
         text-align:center;
         height: 150px;
@@ -353,11 +478,36 @@ the smallest screen size to design for is 320px*/
     #fctd_link_desktop{
         display:none;
     }
-    .footer_background {
-		height:175px;
+    
+/* ASSISTIVE TECHNOLOGY PAGE */
+    .col-xs-12 {
+        width: 100%;
+        float: left;
+        /*border: 1px solid red;*/
+    }
+    #at_red_background_ext {
+        background-color: #dc403b;
+        height: 2950px;
+    }
+    .definition_word{
+        font-size:1 em;
+        line-height:36px;
+    }	
+    .definition_text {
+        display:none;
 	}
+    .tech_short {
+      display:none;
+    }
+    #tech3blue {
+      display:none;
+    }
+    #tech2_tablet {
+        display:none;
+    }
 }
 /* MOBILE */
+
 @media (min-width : 623px) and (max-width : 767px) {
     #logo {
         font-size:2em;
@@ -368,6 +518,13 @@ the smallest screen size to design for is 320px*/
     nav span {
         display:none;
     }
+    .footer_background_home {
+		height:175px;
+	} 
+    .footer_background_at {
+		height:90px;
+	}
+/* HOME PAGE */
     #overview_section{
         height: 166px;
     }
@@ -462,9 +619,34 @@ the smallest screen size to design for is 320px*/
     #fctd_link_desktop{
         display:none;
     }
-    .footer_background {
-		height:125px;
-	} 
+    
+/* ASSISTIVE TECHNOLOGY PAGE */
+    .definition_word{
+        font-size:1.2em;
+        line-height:35px;
+    }	
+    .definition_text {
+        font-size:.9em;
+        line-height:24px;
+	}
+    .col-sm-6 {
+        width: 50%;
+        float: left;
+        /*border: 1px solid blue;*/
+    }
+    #at_red_background_ext {
+        background-color: #dc403b;
+        height: 750px;
+    }
+    #tech3blue {
+      display:none;
+    }
+    #tech2_tablet {
+        display:none;
+    }
+    .tech_long {
+        display:none;
+    }
 }
 
 /* TABLET */
@@ -472,8 +654,21 @@ the smallest screen size to design for is 320px*/
     #logo {
         font-size:2.0em;
         margin-left:15px;
-        line-height:90px;
+        line-height:85px;
     }
+    .nav_letter_desktop {
+        display:none;
+    }
+    .nav_letter_tablet {
+        text-align:center;
+    }
+    .footer_background_home {
+		height:140px;
+	}
+    .footer_background_at {
+		height:90px;
+	}
+    /* HOME PAGE */
     #jumping_kids_desktop{
         display:none;
     }
@@ -567,6 +762,35 @@ the smallest screen size to design for is 320px*/
     #fctd_link_desktop{
         display:none;
     }
+    
+/* ASSISTIVE TECHNOLOGY Page */
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+        /*border: 1px solid blue;*/
+    }
+    #at_red_background_ext {
+        height: 30px;
+    }
+    #tech3blue {
+        display:none;
+    }
+    #tech2 {
+        display:none;
+    }
+    .technology_title {
+        font-size:1.2em;
+        line-height:38px;
+    }
+    .technology_link {
+        font-size:1em;
+    }
+    .technology_type {
+        font-size:.8em;
+    }
+    .tech_long {
+        display:none;
+    }
 } 
 /* DESKTOP */
 @media (min-width : 1200px) {
@@ -578,7 +802,13 @@ the smallest screen size to design for is 320px*/
     #nav_indent {
         margin-left:24px;
     }
-    /* HOME Page */
+    .nav_letter_tablet {
+        display:none;
+    }
+    .footer_background_home {
+		height:90px;
+	}
+/* HOME Page */
     
     #overview_section{
         height : 250px;
@@ -681,8 +911,34 @@ the smallest screen size to design for is 320px*/
     display:none;
     }
     
-    /* Assistive Technology Page */
-    
+/* ASSISTIVE TECHNOLOGY Page */
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+        /*border: 1px solid blue;*/
+    }
+    #at_red_background_ext {
+        height: 30px;
+    }
+    #tech3blue_tablet {
+        display:none;
+    }
+    #tech2_tablet {
+        display:none;
+    }
+    .technology_title {
+        font-size:1.3em;
+        line-height:42px;
+    }
+    .technology_link {
+        font-size:1.1em;
+    }
+    .technology_type {
+        font-size:.9em;
+    }
+    .tech_short {
+        display:none;
+    }
     
 }
 
