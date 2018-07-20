@@ -1,0 +1,361 @@
+#clouds_background {
+	width:100%;
+    display:inline-block; 
+}
+.definition_skills_box {
+	position:absolute;
+    top:10%;
+    left:10%;
+    background-color:#73C5B6;
+	width:80%;
+	border: 10px solid #FFF;
+	height:275px;
+    overflow:auto;
+}
+/*.definition_skills_box {
+        height:190px;
+    }*/
+.sa_ul {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	line-height:26px;
+	font-weight:lighter;
+	margin-left:35px;
+	list-style:disc;
+    margin-top:10px;
+	}
+.subtitle_background {
+    background-color:#dc403b;
+    height:40px;
+    /*border:1px solid black;*/
+}
+.subtitle_text {
+	color:#FFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.25em;
+	line-height:40px;
+	font-weight:bolder;
+    margin-left:3%;
+    padding-bottom:15px;
+}
+.laws_red_background {
+    background-color:#dc403b;
+    height:350px;
+}
+.laws_box {
+	background-color:#FFF;
+	text-align:left;
+	width:95%; 
+	margin-left:auto;
+    margin-right:auto;
+	height:310px;
+    overflow:auto;
+	webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+    border:10px solid #007AA3;
+}
+.col-lg-6 {
+    width: 50%;
+    float: left;
+    border: 1px solid yellow;
+  }
+/*.col-lg-12 {
+    width: 100%;
+    float: left;
+    border: 1px solid black;
+}*/
+/*.col-xs-12 {
+    width: 100%;
+    float: left;*/
+    /*border: 1px solid red;*/
+/*}*/
+.college_work_title_law {
+	color: #007AA3;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.1em;
+	font-weight:bolder;
+	text-align:center;
+    line-height:22px;
+    text-transform:uppercase;
+}
+.college_work_title {
+	color: #007AA3; 
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.1em;
+	font-weight:bolder;
+	text-align:center;
+    line-height:22px;
+    text-transform:uppercase;
+    padding-top:15px;
+}
+.college_work_box {
+    width:95%;
+    height:195px;
+    border:1px solid green;
+}
+.the_process_red_background {
+    background-color:#dc403b;
+    height:285px;
+}
+.the_process_box {
+	margin-right:auto;
+    margin-left:auto;
+    text-align:left;
+	/*height : 245px;*/
+    overflow:auto;
+    width:90%;
+	background-color : #ffffff;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+}  
+.who_pays_red_background {
+    background-color:#dc403b;
+    height:175px;
+}
+.who_pays_box {
+	margin-right:auto;
+    margin-left:auto;
+	height : 135px;
+    overflow:auto;
+    width:90%;
+	background-color : #FFF;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+}
+.assistive_tech_red_background {
+    background-color:#dc403b;
+    height:365px;
+    }
+.assist_tech_college_box {
+	margin-right:auto;
+    margin-left:auto;
+	height : 325px;
+    overflow:auto;
+    width:90%;
+	background-color : #FFF;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+} 
+.assist_tech_work_box {
+    margin-right:auto;
+    margin-left:auto;
+	height : 325px;
+    overflow:auto;
+    width:90%;
+	background-color : #FFF;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+    }
+.accomodations_red_background {
+    background-color:#dc403b;
+    height:425px;
+    }
+.accomodations_college_box {
+	margin-right:auto;
+    margin-left:auto;
+	height : 385px;
+    overflow:auto;
+    width:90%;
+	background-color : #FFF;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+} 
+.accomodations_work_box {
+	margin-right:auto;
+    margin-left:auto;
+	height : 385px;
+    overflow:auto;
+    width:90%;
+	background-color : #FFF;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+}   
+
+/* MEDIA QUERIES */
+/* VERY SMALL MOBILE */
+@media (max-width : 622px) {
+    #clouds_background {
+        height:340px;
+    }
+    .definition_skills_box {
+        height:150px;
+    }
+    .laws_red_background {
+        height:490px;
+    }
+    .laws_box {
+        height:445px;
+    }
+    .long_law {
+        display:none;
+    }
+    .the_process_red_background {
+        height:455px;
+    }
+    .the_process_box {
+        height : 190px;
+        margin-bottom:30px;
+    }
+     .long_process {
+        display:none;
+    }
+    .who_pays_red_background {
+        height:345px;
+    }
+    .who_pays_box {
+        height : 135px;
+        margin-bottom:30px;
+    } 
+    .assistive_tech_red_background {
+        height:615px;
+    }
+    .assist_tech_college_box {
+        height : 325px;
+        margin-bottom:30px;
+    } 
+    .assist_tech_work_box {
+        height : 215px;
+        margin-bottom:30px;
+    }
+    .accomodations_red_background {
+        height:745px;
+    }
+    .accomodations_college_box {
+        height : 385px;
+        margin-bottom:30px;
+    } 
+    .accomodations_work_box {
+        height : 285px;
+        margin-bottom:30px;
+    } 
+}
+
+/* MOBILE */
+@media (min-width : 623px) and (max-width : 767px) {
+    #clouds_background {
+        height:340px;
+    }
+    .definition_skills_box {
+        height:190px;
+    }
+    .laws_red_background {
+        height:410px;
+    }
+    .laws_box {
+        height:375px;
+    }
+    .long_law{
+        display:none;
+    }
+    .the_process_red_background {
+        height:420px;
+    }
+    .the_process_box {
+        height : 175px;
+        margin-bottom:30px;
+    }
+     .long_process {
+        display:none;
+    }
+    .who_pays_red_background {
+        height:345px;
+    }
+    .who_pays_box {
+        height : 135px;
+        margin-bottom:30px;
+    }  
+    .assistive_tech_red_background {
+        height:615px;
+    }
+    .assist_tech_college_box {
+        height : 325px;
+        margin-bottom:30px;
+    } 
+    .assist_tech_work_box {
+        height : 215px;
+        margin-bottom:30px;
+    }
+    .accomodations_red_background {
+        height:745px;
+    }
+    .accomodations_college_box {
+        height : 385px;
+        margin-bottom:30px;
+    } 
+    .accomodations_work_box {
+        height : 285px;
+        margin-bottom:30px;
+    }     
+}
+
+/* TABLET */
+@media (min-width : 768px) and (max-width : 1199px) {
+    #clouds_background {
+        height:340px;
+    }
+    .col-xs-12 {
+        display:none;
+    }
+    .col-lg-6 {
+        width: 50%;
+        float: left;
+        border: 1px solid yellow;
+    }
+    .laws_box {
+        height:300px;
+    }
+    .long_law{
+        display:none;
+    }
+    
+    .the_process_red_background {
+        height:260px;
+    }
+    .the_process_box {
+        /*height:220px;*/
+        height:130px;
+    }
+    .long_process {
+        display:none;
+    }
+}
+
+/* DESKTOP */
+@media (min-width : 1200px) {
+    #clouds_background { 
+        height:440px;
+    }
+    .col-lg-12 {
+        width: 100%;
+        float: left;
+        border: 1px solid black;
+    }
+    .col-lg-6 {
+        width: 50%;
+        float: left;
+        border: 1px solid yellow;
+    }
+    .col-xs-12 {
+        display:none;
+    }
+    .laws_box {
+        height:310px;
+    }
+    .short_law {
+        display:none;
+    }
+    
+    .the_process_box {
+        height:220px;
+    }
+    .short_process {
+        display:none;
+    }
+}

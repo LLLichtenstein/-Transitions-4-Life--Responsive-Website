@@ -1,0 +1,218 @@
+#sky_background {
+	width:100%;
+    height:250px;
+    display:inline-block; 
+}
+.definition_box {
+	position:absolute;
+    top:20%;
+    left:10%;
+    background-color:#73C5B6;
+	width:80%;
+	border: 10px solid #FFF;
+	height:150px;
+}
+.at_red_background {
+    background-color: #dc403b;
+    height: 367px;
+}
+.col-sm-6 {
+    width: 50%;
+    float: left;
+    /*border: 1px solid blue;*/
+}
+.at_images {
+    position:relative;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:30px;
+    margin-top:25px;
+	height : 310px;
+    width:90%;
+	background-color : #000;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+}  
+.at_image_position {
+    position:absolute;
+    top:15%;
+    left:15%;
+}
+.boxes {
+	margin-right:auto;
+    margin-left:auto;
+    margin-bottom:30px;
+    margin-top:25px;
+	height : 310px;
+    width:90%;
+	background-color : #FFF;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+}
+.technology_title {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    text-align:center;
+	font-size:1.1em;
+	font-weight:bolder;
+	line-height:38px;
+    text-transform:uppercase;
+    color:#007AA3;
+}
+.at_ul {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.8em;
+	line-height:16px;
+	font-weight:lighter;
+	margin-left:15px;
+	list-style:none;
+}
+.col-lg-11 {
+    width: 91.66%;
+    /*float: left;*/
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:7px;
+    /*border: 1px solid red;*/
+}
+.technology_image {
+    margin-left:10px;
+    margin-top:7px;
+    width:20px;
+    height:20px;
+}
+.technology_link {
+	color: #000;
+    text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+    font-weight: bold;
+    margin-top:7px;
+	margin-left:10px;
+    margin-right:10px;
+	line-height:18px;
+    text-align:left;
+}
+.technology_type {
+	font-style:italic;
+	font-weight:lighter;
+	font-size:.8em;
+	line-height:12px;
+}
+
+/* MEDIA QUERIES */
+/* VERY SMALL MOBILE */
+@media (max-width : 622px) {
+    .col-xs-12 {
+        width: 100%;
+        float: left;
+        /*border: 1px solid red;*/
+    }
+    #tech3blue {
+      display:none;
+    }
+    #tech2_tablet {
+        display:none;
+    }
+    .tech_short {
+      display:none;
+    }
+    #at_red_background_ext {
+        background-color: #dc403b;
+        height: 2950px;
+    }
+}
+
+
+
+
+
+/* MOBILE */
+@media (min-width : 623px) and (max-width : 767px) {
+    .col-sm-6 {
+        width: 50%;
+        float: left;
+        /*border: 1px solid blue;*/
+    }
+    .col-xs-12 {
+        width: 100%;
+        float: left;
+        /*border: 1px solid red;*/
+    }
+    #tech3blue {
+      display:none;
+    }
+    #tech2_tablet {
+        display:none;
+    }
+    .tech_long {
+        display:none;
+    }
+    #at_red_background_ext {
+        /*background-color: #dc403b;*/
+        height: 750px;
+    }
+}
+
+/* TABLET */
+@media (min-width : 768px) and (max-width : 1199px) {
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+        /*border: 1px solid blue;*/
+    }  
+    #tech3blue {
+        display:none;
+    }
+    #tech2 {
+        display:none;
+    }  
+    .technology_title {
+        font-size:1.2em;
+        line-height:38px;
+    }    
+    .tech_long {
+        display:none;
+    }
+    .technology_link {
+        font-size:1em;
+    }
+    .technology_type {
+        font-size:.8em;
+    }
+    #at_red_background_ext {
+        height: 30px;
+    }
+}
+
+/* DESKTOP */
+@media (min-width : 1200px) {
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+        /*border: 1px solid blue;*/
+    }
+    #tech3blue_tablet {
+        display:none;
+    }
+    #tech2_tablet {
+        display:none;
+    }
+    .technology_title {
+        font-size:1.3em;
+        line-height:42px;
+    }
+    .technology_link {
+        font-size:1.1em;
+    }
+    .technology_type {
+        font-size:.9em;
+    }
+    .tech_short {
+        display:none;
+    }
+    #at_red_background_ext {
+        height: 30px;
+    }
+}
