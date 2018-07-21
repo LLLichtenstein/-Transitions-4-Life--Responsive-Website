@@ -6,7 +6,6 @@ body{
     /*background:#fcfbf3;*/
     /*background:#dc403b; red */
     /*background-color:#687371; gray*/
-    
     background-color:#dc403b;
     font-family: Arial, Helvetica, sans-serif;
     font-size:1em;
@@ -20,15 +19,7 @@ p {
 	margin-right:15px;
 	line-height:22px;
 	text-align:justify;
-	}
-ul {
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:1em;
-	line-height:26px;
-	font-weight:lighter;
-	margin-left:35px;
-	list-style:disc;
-	}
+}
 .italics {
     font-style:italic;
 	font-weight:lighter;
@@ -93,19 +84,33 @@ nav span {
 	width : 14%;
 	line-height:20px;
 	font-size:1em;
-	font-weight:bold;
+	/*font-weight:bold;*/
     text-align:center;
-    margin-left:15px;    
+    /*margin-left:15px;  */
     }
 #nav_indent {
-    margin-left:5%;
+    /*margin-left:5%;*/
 }
 hr {
-    border: 1px solid #b1d5cf;
-    width:100%;
+    /*border: 1px solid #b1d5cf;
+    width:100%;*/
+    
+    /*border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);*/
+    
+    /*border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));*/
+    
+    border: 0;
+    height: 1px;
+    background: #b1d5cf;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-/* global links */
+/* GLOBAL LINKS */
 a {
 	text-decoration:none;
 	font-family: Arial, Helvetica, sans-serif;
@@ -141,6 +146,9 @@ p a:hover {
 p a:active {
 	color:#008bba;/*blue*/                     
 }
+.clearfloat {
+		clear:both;
+	}
 /*FOOTER*/
 .footer_background {
         /* contrast #59756F #687371*/
@@ -219,11 +227,11 @@ p a:active {
 }
 .col-lg-11 {
     width: 91.66%;
-    /*float: left;*/
+    /*float: left;
     margin-right:auto;
     margin-left:auto;
-    margin-top:7px;
-    /*border: 1px solid red;*/
+    margin-top:7px;*/
+   /*border: 1px solid red;*/
 }
 .col-lg-12 {
     width: 100%;
@@ -238,6 +246,9 @@ p a:active {
 .red_background {
     background-color: #dc403b;
 }
+
+
+/* BOX ON TOP OF CLOUDS */
 #relative_box {
     position:relative;
 }
@@ -261,268 +272,7 @@ p a:active {
     padding-right:15px;
     text-align:left;
 }
-/*HOME PAGE*/ 
-.blue_background {
-	background-color:#73C5B6; 
-}
-#overview_text {
-    padding-top: 4%;
-    padding-bottom: 6%;
-    margin-left: 5%;
-    display:inline-block;
-    text-align:center;
-    color:#FFF;
-	font-family:Georgia, "Times New Roman", Times, serif;
-    }
-.text_1{
-    font-weight:bolder;
-	}
-.text_2{
-    font-weight:lighter;
-	}
-.text_3{
-    font-weight:lighter;
-	}
-#text_italics_light{
-    font-style:italic;
-	font-weight:lighter;
-	}
-.assistive_technology {
-    display : inline-block;
-    background-color:#FFF;
-    text-align:center;
-    font-weight:bolder;
-    }
-.self_advocacy {
-    background-color:#FFF;
-    text-align:center;
-    font-weight:bolder;
-}
-.fctd_guide {
-    background-color:#FAC84C;
-    font-weight:bolder;
-    text-align:center;
-}
-#fctd_logo_tablet {
-    margin-right: auto;
-    border : 3px solid #FFF;
-	}
 
-    
-/* ASSISTIVE TECHNOLOGY PAGE */
-#sky_background {
-	width:100%;
-    height:250px;
-    display:inline-block; 
-	}
-.definition_box {
-	position:absolute;
-    top:20%;
-    left:10%;
-    background-color:#73C5B6;
-	width:80%;
-	border: 10px solid #FFF;
-	height:150px;
-}
-.col-sm-6 {
-    width: 50%;
-    float: left;
-    /*border: 1px solid blue;*/
-}
-.boxes {
-	margin-right:auto;
-    margin-left:auto;
-    margin-bottom:30px;
-    margin-top:25px;
-	height : 310px;
-    width:90%;
-	background-color : #FFF;
-    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-}
-.at_red_background {
-    background-color: #dc403b;
-    height: 367px;
-}
-.at_images {
-    position:relative;
-    margin-right:auto;
-    margin-left:auto;
-    margin-bottom:30px;
-    margin-top:25px;
-	height : 310px;
-    width:90%;
-	background-color : #000;
-    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-}   
-.at_image_position {
-    position:absolute;
-    top:15%;
-    left:15%;
-}
-.technology_title {
-    font-family:Georgia, "Times New Roman", Times, serif;
-    text-align:center;
-	font-size:1.1em;
-	font-weight:bolder;
-	line-height:38px;
-    text-transform:uppercase;
-    color:#007AA3;
-}
-.technology_image {
-    margin-left:10px;
-    margin-top:7px;
-    width:20px;
-    height:20px;
-}
-.technology_link {
-	color: #000;
-    text-decoration:none;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:1em;
-    font-weight: bold;
-    margin-top:7px;
-	margin-left:10px;
-    margin-right:10px;
-	line-height:18px;
-    text-align:left;
-}
-.technology_type {
-	font-style:italic;
-	font-weight:lighter;
-	font-size:.8em;
-	line-height:12px;
-}
-.clearfloat {
-		clear:both;
-	}
-/* ADVOCACY PAGE */
-#clouds_background {
-	width:100%;
-    height:440px;
-    display:inline-block; 
-}
-.definition_skills_box {
-	position:absolute;
-    top:20%;
-    left:10%;
-    background-color:#73C5B6;
-	width:80%;
-	border: 10px solid #FFF;
-	height:275px;
-}
-.subtitle_background {
-    background-color:#dc403b;
-    height:40px;
-}
-.subtitle_text{
-	color:#FFF;
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:1.25em;
-	line-height:40px;
-	font-weight:bolder;
-    margin-left:3%;
-    padding-bottom:15px;
-}
-.laws_red_background {
-    background-color:#dc403b;
-    height:350px;
-}
-.laws_box {
-	background-color:#FFF;
-	text-align:left;
-	width:95%; 
-	margin-left:auto;
-    margin-right:auto;
-	height:310px;
-	webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-	box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-    border:10px solid #007AA3;
-}
-.college_work_title_law{
-	color: #007AA3;
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:1.1em;
-	font-weight:bolder;
-	text-align:center;
-    line-height:22px;
-    text-transform:uppercase;
-}
-.college_work_title{
-	color: #007AA3;
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:1.1em;
-	font-weight:bolder;
-	text-align:center;
-    line-height:22px;
-    text-transform:uppercase;
-    padding-top:15px;
-}
-.the_process_red_background {
-    background-color:#dc403b;
-    height:285px;
-}
-.the_process_box {
-	margin-right:auto;
-    margin-left:auto;
-	height : 245px;
-    width:90%;
-	background-color : #FFF;
-    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-}  
-.who_pays_red_background {
-    background-color:#dc403b;
-    height:175px;
-}
-.who_pays_box {
-	margin-right:auto;
-    margin-left:auto;
-	height : 135px;
-    width:90%;
-	background-color : #FFF;
-    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-}  
-.assistive_tech_red_background {
-    background-color:#dc403b;
-    height:365px;
-    }
-.assistive_tech_box {
-	margin-right:auto;
-    margin-left:auto;
-	height : 325px;
-    width:90%;
-	background-color : #FFF;
-    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-} 
-.accomodations_red_background {
-    background-color:#dc403b;
-    height:425px;
-    }
-.accomodations_box {
-	margin-right:auto;
-    margin-left:auto;
-	height : 385px;
-    width:90%;
-	background-color : #FFF;
-    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-} 
-   
-	
-	 
-	
-    
 /* MEDIA QUERIES STAY AT THE END */
 /*Desktop 992px and above. 
 Tablet between 768px and 991px, inclusively. 
@@ -530,8 +280,7 @@ Mobile between 623px and 767px.
 very small Mobile is between 320px and 622px
 the smallest screen size to design for is 320px*/
 
-/* MOBILE - very small */
-/* add Hamburger Menu */
+/* VERY SMALL MOBILE */
 @media (max-width : 622px) {
     #logo {
         font-size:1.75em;
@@ -548,9 +297,10 @@ the smallest screen size to design for is 320px*/
     }
     .mobile_menu {
         line-height:20px;
-        font-size:.9em;
+        font-size:1em;
         font-weight:bold;
         text-align:center;
+        list-style:none;
     }
     .footer_background_home {
 		height:190px;
@@ -558,109 +308,15 @@ the smallest screen size to design for is 320px*/
     .footer_background_at {
 		height:80px;
 	}
-/* HOME PAGE */
-    #overview_section{
-        text-align:center;
-        height: 150px;
-    }
-    #jumping_kids_desktop{
-        display:none;
-    }
-    #jumping_kids_tablet {
-        display:none;
-    }
-    .text_1{
-        font-size:1em;
+    .footer_background {
+		height:80px;
 	}
-    .text_2{
-        font-size:.9em
-	}
-    .text_3{
-        font-size:1em;
-	}
-    #text_italics_light{
-		font-size:1em;
-	}
-    .red_background {
-        height : 565px;
-	}
-    .assistive_technology {
-        margin-left:20%;
-        margin-top:5%;
-        font-size:.9em;
-        line-height:20px;
-        height:147px;
-        width:60%;
-        webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-	}
-    #word_cloud_tablet {
-        display:80%;
+    #footer_home_ext {
+        /*height:223px;*/
+        height:vh;
     }
-    #word_cloud_desktop {
-        display:none;
-    }
-    .self_advocacy {
-        display : block;
-        margin-left:20%;
-        margin-top:5%;
-        font-size:.9em;
-        line-height:20px;
-        height:147px;
-        width:60%;
-        webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-	}
-    .image_padding {
-        padding-top : 10px;
-        padding-bottom : 15px;
-    }
-    #raising_hands_tablet{
-        width:50%;
-    }
-    #raising_hands_desktop{
-        display:none;
-    }
-    .fctd_guide {
-        display : block;
-        margin-left:20%;
-        margin-top:5%;
-        padding-top:5%;
-        font-size:.9em;
-        line-height:20px;
-        height:147px;
-        width:60%;
-        webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-	}
-    #fctd_logo_tablet {
-		display: block;
-        float : left;
-        margin-left:20px;
-        margin-top:10px;
-        margin-bottom:10px;
-        width:20%;
-	} 
-    #fctd_logo {
-        display:none;
-    }
-    #fctd_link_desktop{
-        display:none;
-    }
-    
-/* ASSISTIVE TECHNOLOGY PAGE */
-    .col-xs-12 {
-        width: 100%;
-        float: left;
-        /*border: 1px solid red;*/
-    }
-    #at_red_background_ext {
-        background-color: #dc403b;
-        height: 2950px;
-    }
+
+    /* ASSISTIVE TECHNOLOGY PAGE */
     .definition_word{
         font-size:1 em;
         line-height:36px;
@@ -668,18 +324,18 @@ the smallest screen size to design for is 320px*/
     .definition_text {
         display:none;
 	}
-    .tech_short {
-      display:none;
-    }
-    #tech3blue {
-      display:none;
-    }
-    #tech2_tablet {
+    
+    /* SELF ADVOCACY Page */
+    .definition_word{
+        font-size:1 em;
+        line-height:36px;
+    }	
+    .definition_text {
         display:none;
     }
 }
-/* MOBILE */
 
+/* MOBILE */
 @media (min-width : 623px) and (max-width : 767px) {
     #logo {
         font-size:2em;
@@ -695,9 +351,10 @@ the smallest screen size to design for is 320px*/
     }
     .mobile_menu {
         line-height:20px;
-        font-size:.9em;
+        font-size:1em;
         font-weight:bold;
         text-align:center;
+        list-style:none;
     }
     .footer_background_home {
 		height:175px;
@@ -705,103 +362,8 @@ the smallest screen size to design for is 320px*/
     .footer_background_at {
 		height:90px;
 	}
-/* HOME PAGE */
-    #overview_section{
-        height: 166px;
-    }
-    #jumping_kids_desktop{
-        display:none;
-    }
-    #jumping_kids_tablet{
-        height: 100%;
-        float:left;
-        display:inline-block;
-    }
-    .text_1{
-        font-size:.9em;
-	}
-    .text_2{
-        font-size:.7em;
-	}
-    .text_3{
-        font-size:.9em;
-	}
-    #text_italics_light{
-		font-size:.9em;
-	}
-    .red_background {
-        height : 255px;
-	}
-    .assistive_technology {
-        float:left;
-        margin-left:7%;
-        margin-right:5%;
-        margin-top:35px;
-        font-size:14px;
-        line-height:28px;
-        height:170px;
-        width:25%;
-        webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-	}
-    #word_cloud_tablet {
-        width:80%;
-    }
-    #word_cloud_desktop {
-        display:none;
-    }
-    .self_advocacy {
-        float:left;
-        display : inline-block;
-        margin-right:5%;
-        margin-top:35px;
-        font-size:.9em;
-        line-height:28px;
-        height:170px;
-        width:25%;
-        webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-	}
-    .image_padding {
-        padding-top : 20px;
-        padding-bottom : 30px
-    }
-    #raising_hands_tablet{
-        width:80%;
-    }
-    #raising_hands_desktop{
-        display:none;
-    }
-    .fctd_guide {
-		float:left;
-        display : inline-block;
-        margin-top:35px;
-        height:170px;
-        width:25%;
-		font-size:.9em;
-        line-height:20px;
-        webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-		
-	}
-    #fctd_logo_tablet {
-		display: block;
-        margin-top:20px;
-        margin-bottom:10px;
-        margin-left:auto;
-        width:30%;
-	} 
-    #fctd_logo {
-        display:none;
-    }
-    #fctd_link_desktop{
-        display:none;
-    }
     
-/* ASSISTIVE TECHNOLOGY PAGE */
+    /* ASSISTIVE TECHNOLOGY PAGE */  
     .definition_word{
         font-size:1.2em;
         line-height:35px;
@@ -810,23 +372,15 @@ the smallest screen size to design for is 320px*/
         font-size:.9em;
         line-height:24px;
 	}
-    .col-sm-6 {
-        width: 50%;
-        float: left;
-        /*border: 1px solid blue;*/
-    }
-    #at_red_background_ext {
-        background-color: #dc403b;
-        height: 750px;
-    }
-    #tech3blue {
-      display:none;
-    }
-    #tech2_tablet {
-        display:none;
-    }
-    .tech_long {
-        display:none;
+    
+    /* SELF ADVOCACY Page */
+    .definition_word{
+        font-size:1.5em;
+        line-height:40px;
+    }	
+    .definition_text {
+        font-size:1.1em;
+        line-height:22px;
     }
 }
 
@@ -855,142 +409,17 @@ the smallest screen size to design for is 320px*/
     .footer_background_at {
 		height:90px;
 	}
-    /* HOME PAGE */
-    #jumping_kids_desktop{
-        display:none;
-    }
-    #jumping_kids_tablet{
-        width : 250px;
-        height: 166px;
-        float:left;
-        display:inline-block;
-    }
-    #overview_section{
-        height: 166px;
-    }
-    .text_1{
-        font-size:1.4em;
-	}
-    .text_2{
-        font-size:1.2em;
-	}
-    .text_3{
-        font-size:1.4em;
-	}
-    #text_italics_light{
-		font-size:1.4em;
-	}
-    .red_background {
-        height : 255px;
-	}
-    .assistive_technology {
-        float:left;
-        margin-left:7%;
-        margin-right:5%;
-        margin-top:35px;
-        font-size:.9em;
-        line-height:28px;
-        height:170px;
-        width:25%;
-        webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-	}
-    #word_cloud_tablet {
-        width:80%;
-    }
-    #word_cloud_desktop {
-        display:none;
-    }
-    .self_advocacy {
-        float:left;
-        display : inline-block;
-        margin-right:5%;
-        margin-top:35px;
-        font-size:.9em;
-        line-height:28px;
-        height:170px;
-        width:25%;
-        webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-	}
-    .image_padding {
-        padding-top : 20px;
-        padding-bottom : 30px
-    }
-    #raising_hands_tablet{
-        width:80%;
-    }
-    #raising_hands_desktop{
-        display:none;
-    }
-    .fctd_guide {
-		float:left;
-        display : inline-block;
-        margin-top:35px;
-        height:170px;
-        width:25%;
-		font-size:.9em;
-        line-height:20px;
-        webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-		
-	}
-    #fctd_logo_tablet {
-        margin-top:20px;
-        margin-bottom:7px;
-        margin-left:auto;
-	} 
-    #fctd_logo {
-        display:none;
-    }
-    #fctd_link_desktop{
-        display:none;
-    }
-    
-/* ASSISTIVE TECHNOLOGY Page */
-    .col-lg-4 {
-        width: 33.33%;
-        float: left;
-        /*border: 1px solid blue;*/
-    }
-    #at_red_background_ext {
-        height: 30px;
-    }
-    #tech3blue {
-        display:none;
-    }
-    #tech2 {
-        display:none;
-    }
-    .technology_title {
-        font-size:1.2em;
-        line-height:38px;
-    }
-    .technology_link {
-        font-size:1em;
-    }
-    .technology_type {
-        font-size:.8em;
-    }
-    .tech_long {
-        display:none;
-    }
 } 
+
 /* DESKTOP */
 @media (min-width : 1200px) {
-	#logo {
+    #logo {
         font-size:2.25em;
         margin-left:24px;
         line-height:100px;
     }
     nav {
 	    height: 40px;
-    }
-    #nav_indent {
-        margin-left:24px;
     }
     .nav_letter_tablet {
         display:none;
@@ -1001,139 +430,6 @@ the smallest screen size to design for is 320px*/
 	.mobile_menu {
         display:none;
     }
-/* HOME Page */
-    
-    #overview_section{
-        height : 250px;
-    }
-    #jumping_kids_desktop{
-        width : 377px;
-        height: 250px;
-        float:left;
-        display:inline-block;
-    }
-    #jumping_kids_tablet {
-        display:none;
-    }
-    #jumping_kids_small{
-        display:none;
-    }
-    .text_1{
-        font-size:1.6em;
-	}
-    .text_2{
-        font-size:1.4em;
-	}
-    .text_3{
-        font-size:1.6em;
-	}
-    #text_italics_light{
-		font-size:1.6em;
-	}
-    .red_background {
-        height : 310px;
-	} 
-    .assistive_technology {
-        float:left;
-        margin-left:7%;
-        margin-right:5%;
-        margin-top:35px;
-        font-size:1.1em;
-        line-height:38px;
-        height:230px;
-        width:25%;
-        webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-	}
-    #word_cloud_tablet {
-        display:none;
-    }
-    #word_cloud_desktop {
-        width:80%;
-    }
-    .self_advocacy {
-        float:left;
-        display : inline-block;
-        margin-right:5%;
-        margin-top:35px;
-        font-size:1.1em;
-        line-height:38px;
-        height:230px;
-        width:25%;
-        webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-	}
-    #raising_hands_tablet{
-        display:none;
-    }
-    #raising_hands_desktop{
-        width:80%;
-    }
-    .image_padding {
-        padding-top : 20px;
-        padding-bottom : 30px
-    }
-    .fctd_guide {
-		float:left;
-        display : inline-block;
-        margin-top:35px;
-        height:230px;
-        width:25%;
-		font-size:1.1em;
-        line-height:25px;
-        margin-left:10px;
-        webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
-        box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
-		
-	}
-    #fctd_logo_tablet {
-		display: none;
-    }
-    #fctd_logo {
-		display: block;
-        margin-top:20px;
-        margin-bottom:20px;
-        margin-left:auto;
-		margin-right: auto;
-        width:30%;
-	}
-    #fctd_link_tablet{
-    display:none;
-    }
-    
-/* ASSISTIVE TECHNOLOGY Page */
-    .col-lg-4 {
-        width: 33.33%;
-        float: left;
-        /*border: 1px solid blue;*/
-    }
-    #at_red_background_ext {
-        height: 30px;
-    }
-    #tech3blue_tablet {
-        display:none;
-    }
-    #tech2_tablet {
-        display:none;
-    }
-    .technology_title {
-        font-size:1.3em;
-        line-height:42px;
-    }
-    .technology_link {
-        font-size:1.1em;
-    }
-    .technology_type {
-        font-size:.9em;
-    }
-    .tech_short {
-        display:none;
-    }
-/* ADVOCACY Page */
-    
 }
 
 

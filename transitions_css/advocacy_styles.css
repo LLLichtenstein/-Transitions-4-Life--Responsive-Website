@@ -12,9 +12,6 @@
 	height:275px;
     overflow:auto;
 }
-/*.definition_skills_box {
-        height:190px;
-    }*/
 .sa_ul {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:1em;
@@ -27,7 +24,6 @@
 .subtitle_background {
     background-color:#dc403b;
     height:40px;
-    /*border:1px solid black;*/
 }
 .subtitle_text {
 	color:#FFF;
@@ -49,27 +45,12 @@
 	margin-left:auto;
     margin-right:auto;
 	height:310px;
-    overflow:auto;
+    /*overflow:auto;*/
 	webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
 	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
 	box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
     border:10px solid #007AA3;
 }
-.col-lg-6 {
-    width: 50%;
-    float: left;
-    border: 1px solid yellow;
-  }
-/*.col-lg-12 {
-    width: 100%;
-    float: left;
-    border: 1px solid black;
-}*/
-/*.col-xs-12 {
-    width: 100%;
-    float: left;*/
-    /*border: 1px solid red;*/
-/*}*/
 .college_work_title_law {
 	color: #007AA3;
 	font-family:Georgia, "Times New Roman", Times, serif;
@@ -92,11 +73,10 @@
 .college_work_box {
     width:95%;
     height:195px;
-    border:1px solid green;
 }
 .the_process_red_background {
     background-color:#dc403b;
-    height:285px;
+    height:265px;
 }
 .the_process_box {
 	margin-right:auto;
@@ -110,9 +90,31 @@
 	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
     box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
 }  
+.the_process_box_work {
+	margin-right:auto;
+    margin-left:auto;
+    text-align:left;
+    overflow:auto;
+    width:90%;
+	background-color : #ffffff;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+}  
+.the_process_box_college {
+	margin-right:auto;
+    margin-left:auto;
+    text-align:left;
+    overflow:auto;
+    width:90%;
+	background-color : #ffffff;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+}  
 .who_pays_red_background {
     background-color:#dc403b;
-    height:175px;
+    height:180px;
 }
 .who_pays_box {
 	margin-right:auto;
@@ -125,9 +127,31 @@
 	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
     box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
 }
+.who_pays_box_college {
+	margin-right:auto;
+    margin-left:auto;
+	/*height : 135px;*/
+    overflow:auto;
+    width:90%;
+	background-color : #FFF;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+}
+.who_pays_box_work {
+	margin-right:auto;
+    margin-left:auto;
+	/*height : 135px;*/
+    overflow:auto;
+    width:90%;
+	background-color : #FFF;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+}
 .assistive_tech_red_background {
     background-color:#dc403b;
-    height:365px;
+    height:370px;
     }
 .assist_tech_college_box {
 	margin-right:auto;
@@ -153,7 +177,7 @@
     }
 .accomodations_red_background {
     background-color:#dc403b;
-    height:425px;
+    height:430px;
     }
 .accomodations_college_box {
 	margin-right:auto;
@@ -182,37 +206,52 @@
 /* VERY SMALL MOBILE */
 @media (max-width : 622px) {
     #clouds_background {
-        height:340px;
+        height:300px;
     }
     .definition_skills_box {
         height:150px;
     }
     .laws_red_background {
-        height:490px;
+        height:480px;
     }
     .laws_box {
         height:445px;
     }
-    .long_law {
+    .college_work_box {
+        height:105px;
+    }
+    .col-sm-6 {
         display:none;
+    }
+    .col-lg-6  {
+        display:none;
+    }
+    .col-xs-12 {
+        width: 100%;
+        float: left;
     }
     .the_process_red_background {
-        height:455px;
+        height:400px;
     }
-    .the_process_box {
-        height : 190px;
+    .the_process_box_college {
+        height:180px;
         margin-bottom:30px;
     }
-     .long_process {
-        display:none;
+    .the_process_box_work {
+        height : 160px;
+        margin-bottom:30px;
     }
     .who_pays_red_background {
-        height:345px;
+        height:295px;
     }
-    .who_pays_box {
-        height : 135px;
+    .who_pays_box_college {
+        height : 100px;
         margin-bottom:30px;
     } 
+    .who_pays_box_work {
+        height : 120px;
+        margin-bottom:30px;
+    }      
     .assistive_tech_red_background {
         height:615px;
     }
@@ -225,7 +264,7 @@
         margin-bottom:30px;
     }
     .accomodations_red_background {
-        height:745px;
+        height:760px;
     }
     .accomodations_college_box {
         height : 385px;
@@ -243,39 +282,60 @@
         height:340px;
     }
     .definition_skills_box {
-        height:190px;
+       height:250px;
+       overflow:auto;
     }
     .laws_red_background {
         height:410px;
     }
     .laws_box {
-        height:375px;
+        height:395px;
+        overflow:auto;
     }
-    .long_law{
+    .college_work_box {
+        height:100px;
+    }
+    .col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+    .col-lg-6  {
         display:none;
+    }
+    .col-xs-12 {
+        width: 100%;
+        float: left;
     }
     .the_process_red_background {
-        height:420px;
+        height:400px;
     }
     .the_process_box {
-        height : 175px;
-        margin-bottom:30px;
-    }
-     .long_process {
         display:none;
     }
-    .who_pays_red_background {
-        height:345px;
-    }
-    .who_pays_box {
-        height : 135px;
+    .the_process_box_college {
+        height:170px;
         margin-bottom:30px;
-    }  
+    }
+    .the_process_box_work {
+        height:170px;
+        margin-bottom:30px;
+    }
+    .who_pays_red_background {
+        height:290px;
+    }
+    .who_pays_box_college {
+        height : 100px;
+        margin-bottom:30px;
+    } 
+    .who_pays_box_work {
+        height : 120px;
+        margin-bottom:30px;
+    }      
     .assistive_tech_red_background {
-        height:615px;
+        height:610px;
     }
     .assist_tech_college_box {
-        height : 325px;
+        height : 315px;
         margin-bottom:30px;
     } 
     .assist_tech_work_box {
@@ -286,11 +346,11 @@
         height:745px;
     }
     .accomodations_college_box {
-        height : 385px;
+        height : 375px;
         margin-bottom:30px;
     } 
     .accomodations_work_box {
-        height : 285px;
+        height : 280px;
         margin-bottom:30px;
     }     
 }
@@ -300,31 +360,35 @@
     #clouds_background {
         height:340px;
     }
-    .col-xs-12 {
+    .col-sm-6 {
         display:none;
     }
     .col-lg-6 {
         width: 50%;
         float: left;
-        border: 1px solid yellow;
     }
-    .laws_box {
-        height:300px;
-    }
-    .long_law{
+    .col-xs-12 {
         display:none;
     }
-    
+    .laws_box {
+        height:320px;
+        overflow:auto;
+    }
     .the_process_red_background {
         height:260px;
     }
     .the_process_box {
-        /*height:220px;*/
-        height:130px;
+        height:220px;
     }
-    .long_process {
-        display:none;
+    .accomodations_red_background {
+        height:445px;
     }
+    .accomodations_college_box {
+        height : 400px;
+    } 
+    .accomodations_work_box {
+        height : 400px;
+    }   
 }
 
 /* DESKTOP */
@@ -332,15 +396,16 @@
     #clouds_background { 
         height:440px;
     }
-    .col-lg-12 {
-        width: 100%;
-        float: left;
-        border: 1px solid black;
+    .col-sm-6 {
+        display:none;
     }
     .col-lg-6 {
         width: 50%;
         float: left;
-        border: 1px solid yellow;
+    }
+    .col-lg-12 {
+        width: 100%;
+        float: left;
     }
     .col-xs-12 {
         display:none;
@@ -348,14 +413,13 @@
     .laws_box {
         height:310px;
     }
-    .short_law {
-        display:none;
-    }
-    
     .the_process_box {
-        height:220px;
+        height:225px;
     }
-    .short_process {
-        display:none;
-    }
+    .accomodations_college_box {
+        height : 385px;
+    } 
+    .accomodations_work_box {
+        height : 385px;
+    }   
 }
