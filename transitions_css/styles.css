@@ -393,6 +393,7 @@ the smallest screen size to design for is 320px*/
     }
     nav {
 	    height: 40px;
+        background-color:blue;
     }
     .nav_letter_desktop {
         display:none;
@@ -420,6 +421,7 @@ the smallest screen size to design for is 320px*/
     }
     nav {
 	    height: 40px;
+        background-color:orange;
     }
     .nav_letter_tablet {
         display:none;
