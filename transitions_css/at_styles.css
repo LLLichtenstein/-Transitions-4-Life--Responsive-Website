@@ -16,11 +16,6 @@
     background-color: #dc403b;
     height: 367px;
 }
-.col-sm-6 {
-    width: 50%;
-    float: left;
-    /*border: 1px solid blue;*/
-}
 .at_images {
     position:relative;
     margin-right:auto;
@@ -109,6 +104,12 @@
         float: left;
         /*border: 1px solid red;*/
     }
+    .col-sm-6 {
+        display:none;
+    }
+    .col-lg-4 {
+        display:none;
+    }
     #tech3blue {
       display:none;
     }
@@ -130,15 +131,16 @@
 
 /* MOBILE */
 @media (min-width : 623px) and (max-width : 767px) {
+    .col-xs-12 {
+        display:none;
+    }
     .col-sm-6 {
         width: 50%;
         float: left;
         /*border: 1px solid blue;*/
     }
-    .col-xs-12 {
-        width: 100%;
-        float: left;
-        /*border: 1px solid red;*/
+    .col-lg-4 {
+        display:none;
     }
     #tech3blue {
       display:none;
@@ -157,6 +159,12 @@
 
 /* TABLET */
 @media (min-width : 768px) and (max-width : 1199px) {
+    .col-xs-12 {
+        display:none;
+    }
+    .col-sm-6 {
+        display:none;
+    }
     .col-lg-4 {
         width: 33.33%;
         float: left;
@@ -188,6 +196,12 @@
 
 /* DESKTOP */
 @media (min-width : 1200px) {
+    .col-xs-12 {
+        display:none;
+    }
+    .col-sm-6 {
+        display:none;
+    }
     .col-lg-4 {
         width: 33.33%;
         float: left;
