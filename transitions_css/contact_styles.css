@@ -1,0 +1,194 @@
+#sky_background {
+	width:100%;
+    height:250px;
+    display:inline-block; 
+}
+.definition_box {
+	position:absolute;
+    top:20%;
+    left:10%;
+    background-color:#73C5B6;
+	width:80%;
+	border: 10px solid #FFF;
+	height:150px;
+}
+/* CONTACT US FORM */
+.form_red_background {
+    background-color:#dc403b;
+    height:450px;
+}
+.form_box {
+	background-color:#FFF;
+	text-align:left;
+	width:95%; 
+	margin-left:auto;
+    margin-right:auto;
+	height:400px;
+	webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+    border:10px solid #007AA3;
+}
+.form_text {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	font-size:16px;
+	line-height:26px;
+	font-weight:lighter;
+	/*margin-left:35px;*/
+    margin-left:15%;
+}
+.form_margin {
+    margin-top:40px;
+}
+label {
+	display:inline-block;
+	padding:3px 6px;
+	text-align:right;
+	/*width:150px;*/
+    width:200px;
+	/*vertical-align:top;*/
+}
+#your_name {
+    width: 300px;
+}
+#email_address {
+    width: 300px;
+    margin-top:10px;
+}
+#subject {
+    width: 300px;
+    margin-top:10px;
+}
+#your_message{
+    margin-top:10px;
+	width:300px;
+	height:150px;
+    vertical-align:top;
+}
+#your_message label {
+    margin-top:10px;
+}
+/*added per tutorial*/
+#your_message textarea {
+    resize: none;
+}
+#button_position {
+		margin-left:205px;
+        margin-top:10px;
+}
+/*tutorial hover button */
+/*#contact-form #submit-button:hover {
+    background-color: #A6CFDD;
+}*/
+/* tutorial error and success */
+/*#errors {
+    border:solid 1px #E58E8E;
+    padding:10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
+    display:none;
+}
+ 
+#errors li {
+    padding:2px;
+    list-style:none;    
+}
+ 
+ This will put a dash next to our error validation messages. It's basically replacing the bullet point in the list, I just think this looks better.
+#errors li:before {
+    content: ' - ';    
+}
+ 
+#errors #info {
+    font-weight:bold;
+}
+ 
+#errors #info:before {
+    content: '';    
+}
+ 
+#success {
+    border:solid 1px #83D186;
+    padding:25px 10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;
+    font-weight:bold;
+    display:none;
+}
+ 
+#errors.visible, #success.visible {
+    display:block;    
+}*/
+/* AFFILIATIONS BOXES */
+.affiliations_red_background{
+    background-color:#dc403b;
+    height:375px;
+}
+.subtitle_background {
+    background-color:#dc403b;
+    height:40px;
+}
+.subtitle_text {
+	color:#FFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.25em;
+	line-height:40px;
+	font-weight:bolder;
+    margin-left:3%;
+    padding-bottom:15px;
+}
+.col-lg-4 {
+    width: 33.3%;
+    float: left;
+    /*border: 1px solid green;*/
+  }
+.boxes {
+	margin-right:auto;
+    margin-left:auto;
+    margin-top:25px;
+	height : 270px;
+    width:90%;
+	background-color : #FFF;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+}
+.affiliations_subtitle{
+	color: #007AA3;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.0em;
+	line-height:32px;
+	font-weight:bolder;
+	text-align:center;
+	padding-top:10px;
+    text-transform:uppercase;
+	}
+.affiliations_person{
+	color: #000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.9em;
+	line-height:1.1em;
+	font-weight:bold; 
+	text-align:left;
+	margin-left:25px;
+	}
+.affiliations_data{
+	color: #000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.9em;
+	line-height:1.1em;
+	font-weight:lighter; 
+	text-align:left;
+	margin-left:25px;
+	}
