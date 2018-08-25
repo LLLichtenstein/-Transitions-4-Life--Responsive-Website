@@ -86,16 +86,18 @@
                 </ul>
                 <p id="success">Thanks for your message! We will get back to you ASAP!</p>
                 <form method="post" action="process.php">-->
-                
+                <!-- should use POST for this -->
                     <form method="get" action="llichten@optonline.net">
                         <div class="form_margin">
                         <ul class="form_text">
+                        
+                        <!-- name is the value that is sent to the server, id is for css -->
                             <li><label for="your_name">Your Name (required)</label>
-                                <input type="text" id="your_name" name="your_name" required value="" autofocus="autofocus"/>
+                                <input type="text" id="your_name" name="your_name" required autofocus="autofocus"/>
                             </li>
                             
                             <li><label for="email_address">Email Address (required)</label>
-                                <input id="email_address" type="email" name="email_address" required value=""/>
+                                <input id="email_address" type="email" name="email_address" required/>
                             </li>
                             <li><label for="subject">Subject</label>
                                 <input type="text" id ="subject" name="subject"/>
@@ -105,6 +107,8 @@
                             <li><label for="your_message">Your Message</label>
                                 <textarea id="your_message" name="your_message" required data-minlength="2"></textarea>
                             </li>
+                            <!-- maybe it should be value="Submit"? 
+                            <input type="submit" name="do_post" value="Submit"/>-->
                             <li id="button_position">
                                 <input type="button" value="Send"/>
                             </li>
