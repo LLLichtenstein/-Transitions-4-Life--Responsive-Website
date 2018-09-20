@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Linda L. Lichtenstein Transitions 4 Life Self Advocacy Page</title>
+	<title>Linda L. Lichtenstein Transitions 4 Life Contact Us Page</title>
     <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css"/>
     <link href="css/contact_styles.css" rel="stylesheet" type="text/css"/>
@@ -34,8 +34,8 @@
             <span class="nav_letter_desktop"><a href="at_transition_guide.pdf" accesskey="g" title="link to Transition Guide" target="_blank">Transition Guide (g)</a></span>
             <span class="nav_letter_tablet"><a href="at_transition_guide.pdf" accesskey="g" title="link to Transition Guide" target="_blank">Guide</br>(g)</a></span>
                 
-            <span class="nav_letter_desktop"><a href="about_us.html" accesskey="u" title="link to About Us page">About Us (u)</a></span>
-            <span class="nav_letter_tablet"><a href="about_us.html" accesskey="u" title="link to About Us page">About Us</br>(u)</a></span>
+            <span class="nav_letter_desktop"><a href="about_us.htm" accesskey="u" title="link to About Us page">About Us (u)</a></span>
+            <span class="nav_letter_tablet"><a href="about_us.htm" accesskey="u" title="link to About Us page">About Us</br>(u)</a></span>
             
             <span class="nav_letter_desktop"><a href="contact_us.html" accesskey="c" title="link to Contact Us page">Contact Us (c)</a></span>
             <span class="nav_letter_tablet"><a href="contact_us.html" accesskey="c" title="link to Contact Us page">Contact Us</br>(c)</a></span>
@@ -52,7 +52,7 @@
                 <hr>
                 <li class="mobile_menu"><a href="at_transition_guide.pdf" accesskey="g" title="link to Transition Guide" target="_blank">Transition Guide (g)</a>
                 <hr>
-                <li class="mobile_menu"><a href="about_us.html" accesskey="u" title="link to About Us page">About Us (u)</a></li>
+                <li class="mobile_menu"><a href="about_us.htm" accesskey="u" title="link to About Us page">About Us (u)</a></li>
                 <hr>
                 <li class="mobile_menu"><a href="contact_us.html" accesskey="c" title="link to Contact Us page">Contact Us (c)</a></li>
              </ul>
@@ -80,18 +80,13 @@
             <div class="col-lg-12">
                 <div class="form_box">
                 
-                <!--ul #errors and p #success will be holders for our error and success messages. We will hide these by default with CSS, and display them with either JavaScript or PHP once the form has been submitted. -->
-                <!--<ul id="errors" class="">
-                    <li id="info">There were some problems with your form submission:</li>
-                </ul>
-                <p id="success">Thanks for your message! We will get back to you ASAP!</p>
-                <form method="post" action="process.php">-->
-                <!-- should use POST for this -->
-                    <form method="get" action="llichten@optonline.net">
+                
+                    <form method="POST" action="thank_you.html">
+                    <!--<form method="POST" action="send_mail.php">-->
                         <div class="form_margin">
                         <ul class="form_text">
                         
-                        <!-- name is the value that is sent to the server, id is for css -->
+                            <!-- name is the value that is sent to the server, id is for css -->
                             <li><label for="your_name">Your Name (required)</label>
                                 <input type="text" id="your_name" name="your_name" required autofocus="autofocus"/>
                             </li>
@@ -103,21 +98,11 @@
                                 <input type="text" id ="subject" name="subject"/>
                             </li>
                             
-                            <!--as a makeshift minlength attribute, we are going to use another new HTML5 attribute called a custom data attribute. This is basically any attribute name prefixed with the word 'data-'. In our case we have appropriately chosen data-minlength. This lets us essentially create our own attributes.-->
                             <li><label for="your_message">Your Message</label>
                                 <textarea id="your_message" name="your_message" required data-minlength="2"></textarea>
                             </li>
-                            <!-- maybe it should be value="Submit"? 
-                            <input type="submit" name="do_post" value="Submit"/>-->
-                            <li id="button_position">
-                                <input type="button" value="Send"/>
-                            </li>
                             
-                            <!--<span id="loading"></span>
-                            <input type="submit" value="Holla!" id="submit-button" />
-                            <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>-->
-                            
-                            <!--<li><button type="button" value="Send"></button></li>-->
+                            <li id="button_position"><button>Send</button></li>
                         </ul>
                         </div>
                     </form>
@@ -130,16 +115,18 @@
     <section class="subtitle_background">
         <div class="row">
             <div class="col-lg-12">
+            <br>
                 <h1 class="subtitle_text">OUR AFFILIATIONS</h1>
             </div>
         </div>
     </section>
     
+    <!-- DESKTOP and TABLET -->
     <section class="affiliations_red_background">
         <div class="row">
             <div class="col-lg-4">
                 <div class="boxes">
-                    <h1 class="affiliations_subtitle">COMPANY 1</h1><br><br>
+                    <h1 class="affiliations_subtitle">COMPANY 1</h1><br>
                     <span class="affiliations_person">Caroline Contact</span><br>
                     <span class="affiliations_data">ccontact@company1.com</span><br><br>
                     <span class="affiliations_data">www.company1.com</span><br><br>
@@ -152,8 +139,8 @@
             
             <div class="col-lg-4">
                 <div class="boxes">
-                    <h1 class="affiliations_subtitle">COMPANY 2</h1><br><br>
-                    <span class="affiliations_person">Matthew Company2</span><br>
+                    <h1 class="affiliations_subtitle">COMPANY 2</h1><br>
+                    <span class="affiliations_person">Matthew Company</span><br>
                     <span class="affiliations_data">matthewc@company2.com</span><br><br>
                     <span class="affiliations_data">www.company2.com</span><br><br>
                     <span class="affiliations_data">555-333-1212</span>   <br>
@@ -165,7 +152,52 @@
             
             <div class="col-lg-4">
                 <div class="boxes">
-                    <h1 class="affiliations_subtitle">EDUCATIONAL ORGANIZATION</h1><br><br>
+                    <h1 class="affiliations_subtitle">EDUCATIONAL ORG</h1><br>
+                    <span class="affiliations_person">Eddie Org</span><br>
+                    <span class="affiliations_data">eddie@educational.org</span><br><br>
+                    <span class="affiliations_data">www.educational.org</span><br><br>
+                    <span class="affiliations_data">555-333-5656</span>   <br>
+                    <span class="affiliations_data">555-334-7878</span><br><br>
+                    <span class="affiliations_data">200 Educational Street</span><br>
+                    <span class="affiliations_data">Acity, FL, 00110</span> 
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- MOBILE -->
+    <section class="m_affiliations_red_background">
+        <div class="row">
+            <div class="col-small-12">
+                <div class="boxes">
+                    <h1 class="affiliations_subtitle">COMPANY 1</h1><br>
+                    <span class="affiliations_person">Caroline Contact</span><br>
+                    <span class="affiliations_data">ccontact@company1.com</span><br><br>
+                    <span class="affiliations_data">www.company1.com</span><br><br>
+                    <span class="affiliations_data">555-555-1111</span>   <br>
+                    <span class="affiliations_data">555-556-2222</span><br><br>
+                    <span class="affiliations_data">101 Company1 Way</span><br>
+                    <span class="affiliations_data">Acity, FL, 00110</span>
+                </div>
+            </div>
+            
+            <div class="col-small-12">
+                <div class="boxes">
+                    <h1 class="affiliations_subtitle">COMPANY 2</h1><br>
+                    <span class="affiliations_person">Matthew Company</span><br>
+                    <span class="affiliations_data">matthewc@company2.com</span><br><br>
+                    <span class="affiliations_data">www.company2.com</span><br><br>
+                    <span class="affiliations_data">555-333-1212</span>   <br>
+                    <span class="affiliations_data">555-334-2323</span><br><br>
+                    <span class="affiliations_data">500 Astreet Ave</span><br>
+                    <span class="affiliations_data">Acity, FL, 00110</span>   
+                </div>
+            </div>
+            
+            <div class="col-small-12">
+                <div class="boxes">
+                    <h1 class="affiliations_subtitle">EDUCATIONAL ORG</h1><br>
                     <span class="affiliations_person">Eddie Org</span><br>
                     <span class="affiliations_data">eddie@educational.org</span><br><br>
                     <span class="affiliations_data">www.educational.org</span><br><br>
