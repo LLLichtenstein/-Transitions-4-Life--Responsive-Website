@@ -1,0 +1,429 @@
+#overview_section{
+    height: 166px;
+    }
+.blue_background {
+	background-color:#73C5B6; 
+}
+#overview_text {
+    padding-top: 4%;
+    padding-bottom: 6%;
+    margin-left: 5%;
+    display:inline-block;
+    text-align:center;
+    color:#FFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.text_1{
+    font-weight:bolder;
+	}
+.text_2{
+    font-weight:lighter;
+	}
+.text_3{
+    font-weight:lighter;
+	}
+#text_italics_light{
+    font-style:italic;
+	font-weight:lighter;
+	}
+.home_boxes {
+	margin-right:auto;
+    margin-left:auto;
+    margin-top:35px;
+    height : 275px;
+    width:85%;
+	background-color : #FFF;
+    webkit-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+	moz-box-shadow:1px 1px 5px 1px rgba(0,0,0,.25);
+    box-shadow:1px 1px 5px 1px rgba(0,0,0,.5);
+}
+
+
+    /* MEDIA QUERIES */
+    
+    /* VERY SMALL MOBILE */
+@media (max-width : 622px) {
+    .red_background {
+        height : 420px;
+	}
+    #overview_section{
+        text-align:center;
+        height: 150px;
+    }
+    #jumping_kids_desktop{
+        display:none;
+    }
+    #jumping_kids_tablet {
+        display:none;
+    }
+    .text_1{
+        font-size:1em;
+	}
+    .text_2{
+        font-size:.9em
+	}
+    .text_3{
+        font-size:1em;
+	}
+    #text_italics_light{
+		font-size:1em;
+	}
+    .home_boxes {
+        height:100px;
+    }
+    .col-sm-4 {
+        width:33.3%;
+        float: left;
+    }
+    .col-sm-8 {
+        width: 66.66%;
+        float: left;
+    }
+    .col-lg-4 {
+        display:none;
+    }
+    .col-lg-12 {
+        display:none;
+    }
+    .word_cloud_tablet {
+        width:60%;
+        display:block;
+        margin-right:auto;
+        margin-left:auto;
+        padding-top:20px;
+        padding-bottom:30px;
+    }
+    .word_cloud_desktop {
+        display:none;
+    }
+    .card_link {
+        display:none;
+    }
+    .mobile_link_text {
+        height:100px;
+        display: table-cell;
+        vertical-align:middle;
+        padding-left:15px;
+        font-size:.8em;
+        line-height:16px;
+        font-weight: bold;
+    }
+    .raising_hands_tablet{
+        width:60%;
+        display:block;
+        margin-right:auto;
+        margin-left:auto;
+        padding-top:20px;
+        padding-bottom:30px;
+    }
+    .raising_hands_desktop{
+        display:none;
+    }
+    #fctd_logo_tablet {
+		width:25%;
+        display:block;
+        margin-right:auto;
+        margin-left:auto;
+        padding-top:20px;
+        padding-bottom:30px;
+	} 
+    #fctd_logo_mobile {
+        display:none;
+    }
+    #fctd_logo {
+        display:none;
+    }
+    .footer_background {
+        background-color:#687371;
+        height:200px;
+		margin:0px;
+	}
+    .credits_text {
+		text-align:left;
+		color:#FFF;
+		line-height:14px;
+		font-size:9px;
+	}
+    .copyright_text {
+		text-align:center;
+		color:#FFF;
+		line-height:14px;
+		font-size:9px;
+	}
+}   
+    /* MOBILE */
+@media (min-width : 623px) and (max-width : 767px) { 
+    .red_background {
+        height : 570px;
+    }
+    #overview_section{
+        height: 166px;
+    }
+    #jumping_kids_desktop{
+        display:none;
+    }
+    #jumping_kids_tablet{
+        height: 100%;
+        float:left;
+        display:inline-block;
+    } 
+    .text_1{
+        font-size:.9em;
+	}
+    .text_2{
+        font-size:.7em;
+	}
+    .text_3{
+        font-size:.9em;
+	}
+    #text_italics_light{
+		font-size:.9em;
+	}
+    .col-sm-12 {
+        width:100%;
+    }
+    .col-sm-4 {
+        width:33.3%;
+        float: left;
+    }
+    .col-sm-8 {
+        width: 66.66%;
+        float: left;
+        height:150px;
+    }
+    .col-lg-4 {
+        display:none;
+    }
+    .col-lg-12 {
+        display:none;
+    }
+    .home_boxes {
+        margin-top:35px;
+        height : 150px;
+    }
+    .word_cloud_tablet {
+        display:block;
+        margin-left:15px;
+        padding-top:20px;
+        padding-bottom:30px;
+    }
+    .word_cloud_desktop {
+        display:none;
+    }
+    .card_link {
+        display:none;
+    }
+    .mobile_link_text {
+        height:100px;
+        display: table-cell;
+        vertical-align:middle;
+        padding-left:15px;
+        font-size:1.1em;
+        line-height:22px;
+        font-weight: bold;
+    }
+    .raising_hands_tablet{
+        display:block;
+        margin-left:15px;
+        padding-top:20px;
+        padding-bottom:30px;
+    }
+    .raising_hands_desktop{
+        display:none;
+    }
+    #fctd_logo_mobile {
+		display: block;
+        padding-top:20px;
+        margin-left:auto;
+		margin-right: auto;
+	}
+    #fctd_logo_tablet {
+        display:none;
+    }
+    #fctd_logo {
+        display:none;
+    }
+}  
+    
+  /* TABLET */
+@media (min-width : 768px) and (max-width : 1199px) { 
+    .red_background {
+        height : 375px;
+	}  
+    #jumping_kids_desktop{
+        display:none;
+    }
+    #jumping_kids_tablet{
+        width : 250px;
+        height: 166px;
+        float:left;
+        display:inline-block;
+    }
+    .text_1{
+        font-size:1.4em;
+	}
+    .text_2{
+        font-size:1.2em;
+	}
+    .text_3{
+        font-size:1.4em;
+	}
+    #text_italics_light{
+		font-size:1.4em;
+	}
+    .col-sm-4 {
+        display:none;
+    }
+    .col-sm-8 {
+        display:none;
+    }
+    .col-sm-12 {
+        display:none;
+    }
+    .col-lg-4 {
+        width: 33.3%;
+        float: left;
+    } 
+    .col-lg-12 {
+        width: 100%;
+        float: left;
+        text-align:center;
+    }
+    .word_cloud_tablet {
+        width:80%;
+        display:block;
+        margin-right:auto;
+        margin-left:auto;
+        padding-top:20px;
+        padding-bottom:30px;
+    }
+    .word_cloud_desktop {
+        display:none;
+    }
+    .card_link {
+        font-size:1.0em;
+        line-height:20px;
+        font-weight: bold;
+    }
+    .mobile_link_text {
+        display:none;
+    } 
+    .raising_hands_tablet{
+        width:80%;
+        display:block;
+        margin-right:auto;
+        margin-left:auto;
+        padding-top:20px;
+        padding-bottom:30px;
+    }
+    .raising_hands_desktop{
+        display:none;
+    }
+    #fctd_logo {
+        display: block;
+        padding-top:20px;
+        padding-bottom:45px;
+        margin-left:auto;
+		margin-right: auto;
+        width:30%;
+	} 
+    #fctd_logo_tablet {
+        display:none;
+    } 
+    #fctd_logo_mobile {
+		display: none;
+	}
+}    
+    
+  /* DESKTOP */   
+@media (min-width : 1200px) {
+    .red_background {
+        height : 350px;
+	} 
+    #overview_section{
+        height : 250px;
+    }
+    #jumping_kids_desktop{
+        width : 377px;
+        height: 250px;
+        float:left;
+        display:inline-block;
+    }
+    #jumping_kids_tablet {
+        display:none;
+    }
+    .text_1{
+        font-size:1.6em;
+	}
+    .text_2{
+        font-size:1.4em;
+	}
+    .text_3{
+        font-size:1.6em;
+	}
+    #text_italics_light{
+		font-size:1.6em;
+	}
+    .col-sm-4 {
+        display:none;
+    }
+    .col-sm-8 {
+        display:none;
+    }
+    .col-sm-12 {
+        display:none;
+    }
+    .col-lg-4 {
+        width: 33.3%;
+        float: left;
+    } 
+    .col-lg-12 {
+        width: 100%;
+        float: left;
+        text-align:center;
+    }
+    .word_cloud_tablet {
+        display:none;
+    }
+    .word_cloud_desktop {
+        width:80%;
+        display:block;
+        margin-right:auto;
+        margin-left:auto;
+        padding-top:20px;
+        padding-bottom:30px;
+    }
+    .card_link {
+        font-size:1.1em;
+        line-height:22px; 
+        font-weight: bold;
+    }
+    .mobile_link_text {
+        display:none;
+    }
+    .raising_hands_tablet{
+        display:none;
+    }
+    .raising_hands_desktop{
+        width:80%;
+        display:block;
+        margin-right:auto;
+        margin-left:auto;
+        padding-top:20px;
+        padding-bottom:30px;
+    }
+    #fctd_logo {
+		display: block;
+        padding-top:20px;
+        padding-bottom:50px;
+        margin-left:auto;
+		margin-right: auto;
+        width:30%;
+	}
+    #fctd_logo_tablet {
+        display:none;
+    } 
+    #fctd_logo_mobile {
+		display: none;
+	}
+}
