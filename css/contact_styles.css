@@ -345,6 +345,9 @@ label {
     .col-small-12 {
         display:none:
     }
+    .affiliations_red_background{
+        height:375px;
+    }
     .m_affiliations_red_background{
         display:none;
     }  
