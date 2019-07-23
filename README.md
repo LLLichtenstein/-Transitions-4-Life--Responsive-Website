@@ -6,3 +6,5 @@ The website is directed toward disabled individuals (and their family) who are t
 
 Transitions 4 Life website can be viewed at https://lllichtenstein.github.io/-Transitions-4-Life--Responsive-Website/
 
+Code for the final version of the website is in the Transitions Final branch.
+
